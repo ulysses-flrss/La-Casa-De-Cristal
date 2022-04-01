@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quicksand:wght@300;400;500&display=swap');
+
+
+
+:root {
+    --verde-oscuro: #009D71;
+    --verde: #2CA880;
+    --verde-claro: #57BD9E;
+    --verde-suave: #C2E8CE;
+    --verde-crema: #F2F9F1;
+    
+    --titulo: 'Bebas Neue', cursive;
+    --cuerpo: 'Quicksand', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 500ms;
+    font-family: var(--cuerpo);
+}
+#menu-icon {
+    position: absolute;
+    color: #000;
+    font-size: 2.5em;
+    margin: 0.75em;
+    z-index: 1;
+    cursor: pointer;
+}
+
+nav.menu-container {
+    position: absolute;
+    background-color: #FFF;
+    height: 100%;
+    width: 12%;
+    padding: 1em;
+    
+}
+
+.menu-ul {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-top: 5em;
+    
+}
+
+.menu-ul .menu-item {
+    
+}
+
+.menu-ul a {
+    text-decoration: none;
+    color: #000;
+}
