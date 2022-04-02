@@ -5,19 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La Casa De Cristal</title>
+    <!-- ESTILOS ROOT -->
     <link rel="stylesheet" href="css/root-style.css">
+
     <link rel="stylesheet" href="css/index-style.css">
     <script src="https://kit.fontawesome.com/b5142e7f7e.js" crossorigin="anonymous"></script>
     
 </head>
-<body>
-    <nav class="menu-container">
+<body  id="body">
+    <nav class="menu-container" id="menu">
+        <i class="fa-solid fa-xmark" id="close"></i>
         <ul class="menu-ul">
-            <li class="menu-item"><a href="">Inicio</a></li>
-            <li class="menu-item"><a href="">Servicios</a></li>
-            <li class="menu-item"><a href="">Actividades</a></li>
-            <li class="menu-item"><a href="">Galería</a></li>
-            <li class="menu-item"><a href="">¿Dudas?</a></li>
+            <li class="menu-item">Menu</li>
+            <li class="menu-item"><a href="#"><i class="fa-solid fa-house-chimney"></i>Inicio</a></li>
+            <li class="menu-item"><a href="#"><i class="fa-solid fa-clipboard"></i>Servicios</a></li>
+            <li class="menu-item"><a href="#"><i class="fa-solid fa-person-biking"></i>Actividades</a></li>
+            <li class="menu-item"><a href="#"><i class="fa-solid fa-camera-retro"></i>Galería</a></li>
+            <li class="menu-item"><a href="#"><i class="fa-solid fa-phone"></i>Contacto</a></li>
+            <li class="menu-item"><a href="#"><i class="fa-solid fa-clipboard-question"></i>Acerca de</a></li>
+            <li class="menu-item"><a href="#"><i class="fa-solid fa-at"></i>Creadores</a></li>
         </ul>
     </nav>
     <i class="fa-solid fa-bars" id="menu-icon"></i>
@@ -26,8 +32,9 @@
         <h1 id="titulo">LA CASA DE CRISTAL</h1>
         <h4 id="subtitulo">SANTA ANA</h4>
     </div>
-
+    
     <section id="section-container">
+        <hr class="separador">
         <article id="datos">
             <div class="dato" id="dato1">
                 <div class="circle">
@@ -62,9 +69,11 @@
                 <p> Hoy en día esta cómoda vivienda campestre tiene la capacidad para albergar a 30 personas y cuenta con varias habitaciones, baños, dos salas de reuniones y ventanas de vidrio. Pero los turistas prefieren acampar en sus alrededores y vivir la aventura natural al aire libre del lugar.</p>
             </div>
         </article>
-        <hr>
-        <article>
-            
+        <hr class="separador">
+        <article id="contacto">
+            <div class="circle">
+                <i class="fa-solid fa-phone-volume icon"></i>
+            </div>
         </article>
     </section>
 
