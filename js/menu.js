@@ -6,6 +6,7 @@ let titulo =  document.getElementById(`titulo`);
 let subtitulo = document.getElementById(`subtitulo`);
 let body = document.getElementById(`body`);
 
+
 const openMenu = ()=> {
     menu.style.transform = "translate(0, 0)";
     open.style.display = "none";

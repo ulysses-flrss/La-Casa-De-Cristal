@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quicksand:wght@300;400;500&display=swap');
 
 :root {
@@ -12,19 +11,6 @@
     --cuerpo: 'Quicksand', sans-serif;
 
     
-=======
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quicksand:wght@300;400;500&display=swap");
-
-:root {
-  --verde-oscuro: #009d71;
-  --verde: #2ca880;
-  --verde-claro: #57bd9e;
-  --verde-suave: #c2e8ce;
-  --verde-crema: #f2f9f1;
-
-  --titulo: "Bebas Neue", cursive;
-  --cuerpo: "Quicksand", sans-serif;
->>>>>>> 8aea6d833aae39fbd55eff36c3ee99b9071499a4
 }
 
 * {
@@ -83,7 +69,6 @@ nav.menu-container {
 
 
 .menu-ul a {
-<<<<<<< HEAD
     text-decoration: none;
     color: var(--verde-oscuro);
 }
@@ -109,8 +94,3 @@ i {
     margin: 0.35em 0.35em 0 0!important;
     color: var(--verde-oscuro);
 }
-=======
-  text-decoration: none;
-  color: #000;
-}
->>>>>>> 8aea6d833aae39fbd55eff36c3ee99b9071499a4

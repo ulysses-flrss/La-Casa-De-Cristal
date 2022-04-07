@@ -99,14 +99,30 @@ article#datos {
 
 
 .titulo-historia {
-    font-family: var(--titulo);
     font-size: 5em;
-    color: var(--verde-oscuro);
     cursor: default;
+}
+
+.titulos {
+    color: var(--verde-oscuro);
+    font-family: var(--titulo);
 }
 
 .cuerpo-historia {
     font-family: var(--cuerpo);
     font-size: 1.5em;
     text-align: justify;
+}
+
+.contacto-icon {
+    width: 20em;
+    height: 20em;
+}
+
+.icon-contacto {
+    font-size: 7.5em !important;
+}
+
+#contacto {
+    padding: 2em;
 }
