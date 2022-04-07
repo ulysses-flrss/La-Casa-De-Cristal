@@ -10,31 +10,26 @@ let up = document.getElementById("up");
 
 
 
-if (window.onload) {
-    verificarScroll();
-}
 
 const topPage = () => {
     window.scroll(0,0)
 }
 
+log
 const openMenu = ()=> {
     menu.style.transform = "translate(0, 0)";
     open.style.display = "none";
-    imagen.style.filter = `brightness(0.1)`;
-    titulo.style.filter = `brightness(0.3)`;
     body.className = "noScroll";
+    body.style.filter = "brightness(0.3)";
     up.style.filter = "brightness(0.3)";
-    
 }
 
 const closeMenu = ()=> {
     menu.style.transform = "translate(-250px, 0)";
     open.style.display = "flex";
-    titulo.style.filter = `brightness(1)`;
-    imagen.style.filter = `brightness(0.3)`;
     body.className = null;
-    up.style.filter = "brightness(1)"
+    body.style.filter = "brightness(1)";
+    up.style.filter = "brightness(1)";
 }
 
 open.addEventListener("click", openMenu);
