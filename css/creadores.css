@@ -1,0 +1,9 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+
+
+h1{
+    font-family: var(--titulo);
+}
