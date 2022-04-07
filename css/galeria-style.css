@@ -1,0 +1,99 @@
+body {
+  background: var(--verde-crema);
+}
+
+h1 {
+  font-family: var(--titulo);
+  font-size: 3rem;
+  margin: 0.5rem auto;
+  text-align: center;
+}
+
+nav div {
+  position: absolute;
+  opacity: 0;
+}
+
+i {
+  color: var(--verde-oscuro);
+}
+
+.slider i {
+  z-index: 2;
+  font-size: 3rem;
+  position: absolute;
+}
+
+.slider i:first-of-type {
+  /*margin-right: 70.4rem;*/
+  margin-right: 67.6rem;
+}
+
+.slider i:last-of-type {
+  /*margin-left: 70.8rem;*/
+  margin-left: 68.3rem;
+}
+
+.slider-content {
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 2rem auto;
+  display: flex;
+  width: 60rem;
+  height: 40rem;
+  overflow: hidden;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.slider-img {
+  width: 65.1rem;
+  height: 40rem;
+  margin: 1.25rem;
+}
+
+.slider-opcs {
+  margin-left: 270rem;
+  animation: carrusel 30s infinite linear;
+}
+
+@keyframes carrusel {
+  0% {
+    margin-left: 270rem;
+  }
+  15% {
+    margin-left: 270rem;
+  }
+
+  20% {
+    margin-left: 135rem;
+  }
+  35% {
+    margin-left: 135rem;
+  }
+
+  40% {
+    margin-left: 0rem;
+  }
+  55% {
+    margin-left: 0rem;
+  }
+
+  60% {
+    margin-left: -135rem;
+  }
+  75% {
+    margin-left: -135rem;
+  }
+
+  80% {
+    margin-left: -270rem;
+  }
+  95% {
+    margin-left: -270rem;
+  }
+}
