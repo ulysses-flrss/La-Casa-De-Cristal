@@ -65,17 +65,11 @@ nav.menu-container {
 }
 
 .menu-ul a {
-<<<<<<< HEAD
     width: 100%;
-=======
-<<<<<<< Updated upstream
->>>>>>> f5c1a368c5e363546de08d60e3be7ba650127441
     text-decoration: none;
     color: var(--verde-oscuro);
-=======
-  text-decoration: none;
-  color: var(--verde-oscuro);
->>>>>>> Stashed changes
+    text-decoration: none;
+    color: var(--verde-oscuro);
 }
 
 .menu-item:hover:not(:first-child) {
@@ -91,21 +85,12 @@ i {
 }
 
 #close {
-<<<<<<< Updated upstream
     position: relative;
     display: flex;
     justify-content: flex-end;
     font-size: 1.5em !important;
     margin: 0.35em 0.35em 0 0!important;
     color: var(--verde-oscuro);
-=======
-  position: relative;
-  display: flex;
-  justify-content: flex-end;
-  font-size: 1.5em !important;
-  margin: 0.35em 0.35em 0 0 !important;
-  color: var(--verde-oscuro);
->>>>>>> Stashed changes
 }
 
 #up {
