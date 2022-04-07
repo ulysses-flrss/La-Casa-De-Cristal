@@ -3,7 +3,24 @@
     padding: auto;
 }
 
-
-h1{
-    font-family: var(--titulo);
+body{
+    background-color: var(--verde-crema);
 }
+
+
+#titulo {
+    
+    text-align: center;
+    color: #009D71;
+    z-index: 1;
+    font-family: var(--titulo);
+    font-size: 7em;
+}
+#menu-icon {
+    position: absolute;
+    color: #009D71 !important;
+    font-size: 2.5em;
+    margin: 0.75em;
+    z-index: 1;
+    cursor: pointer;
+  }
