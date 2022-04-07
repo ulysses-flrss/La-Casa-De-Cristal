@@ -1,8 +1,7 @@
-        
-
 .portada {
+    display: flex;
+    flex-direction: column;
     position: fixed;
-    z-index: -1;
 }
 
 .noScroll {
@@ -11,28 +10,24 @@
 }
 
 #cover {
-    position: fixed;
-    width: 100%;
     transform: translateY(-250px);
+    position: absolute;
+    width: 100%;
     filter: brightness(0.3);
 }
 
 #titulo {
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    align-items: center;
+    height: 100vh;
     position: relative;
+    text-align: center;
     color: #FFF;
+    z-index: 1;
     font-family: var(--titulo);
     font-size: 9em;
-    margin: 1.25em 1.75em 0 1.75em;
-}
-
-#subtitulo {
-    width: 100%;
-    position: relative;
-    color: #FFF;
-    font-family: var(--titulo);
-    font-size: 4em;
-    margin: 0em 9em;
 }
 
 #section-container {
@@ -66,7 +61,7 @@ article#datos {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 10em;
+    justify-content: center;
 }
 
 .circle {
@@ -81,6 +76,7 @@ article#datos {
 
 .texto {
     padding: 0.5em 0;
+    width: 30%;
     text-align: center;
     font-family: var(--cuerpo);
 }
@@ -99,11 +95,11 @@ article#datos {
 
 
 .titulo-historia {
-    font-size: 5em;
     cursor: default;
 }
 
 .titulos {
+    font-size: 5em;
     color: var(--verde-oscuro);
     font-family: var(--titulo);
 }
@@ -115,14 +111,56 @@ article#datos {
 }
 
 .contacto-icon {
-    width: 20em;
-    height: 20em;
+    width: 17.5em;
+    height: 17.5em;
 }
 
 .icon-contacto {
-    font-size: 7.5em !important;
+    font-size: 7em !important;
 }
 
-#contacto {
+#contacto-article {
+    display: flex;
     padding: 2em;
+}
+
+.contactos-div {
+    margin: 0 auto;
+}
+
+.contacto-list {
+    list-style-type: none;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+
+
+@media screen and (max-width: 480px) {
+    /* Estilo para Telefono*/
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    /* Estilo para Tablet */
+    #cover {
+        transform: translateY(0) !important;
+        position: absolute;
+        width: 100%;
+        filter: brightness(0.3);
+    }
+
+    #titulo {
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        align-items: center;
+        height: 100vh;
+        position: relative;
+        text-align: center;
+        color: #FFF;
+        z-index: 1;
+        font-family: var(--titulo);
+        font-size: 9em;
+    }
+    
 }
