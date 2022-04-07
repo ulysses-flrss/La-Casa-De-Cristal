@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quicksand:wght@300;400;500&display=swap');
 
 :root {
@@ -11,6 +12,19 @@
     --cuerpo: 'Quicksand', sans-serif;
 
     
+=======
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quicksand:wght@300;400;500&display=swap");
+
+:root {
+  --verde-oscuro: #009d71;
+  --verde: #2ca880;
+  --verde-claro: #57bd9e;
+  --verde-suave: #c2e8ce;
+  --verde-crema: #f2f9f1;
+
+  --titulo: "Bebas Neue", cursive;
+  --cuerpo: "Quicksand", sans-serif;
+>>>>>>> Stashed changes
 }
 
 * {
@@ -21,76 +35,83 @@
   font-family: var(--cuerpo);
 }
 #menu-icon {
-    position: absolute;
-    color: #FFF;
-    font-size: 2.5em;
-    margin: 0.75em;
-    z-index: 1;
-    cursor: pointer;
+  position: absolute;
+  color: #fff;
+  font-size: 2.5em;
+  margin: 0.75em;
+  z-index: 1;
+  cursor: pointer;
 }
 
 nav.menu-container {
-    position: fixed;
-    /* background-color: var(--verde-crema); */
-    background-color: var(--verde-crema);
-    height: 100%;
-    width: 15%;
-    z-index: 1;
-    transform: translateX(-250px);
+  position: fixed;
+  /* background-color: var(--verde-crema); */
+  background-color: var(--verde-crema);
+  height: 100%;
+  width: 15%;
+  z-index: 1;
+  transform: translateX(-250px);
 }
 
-
-
 .menu-ul {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
 }
 
 .menu-item:first-child {
-    font-size: 2em;
-    text-align: center;
-    padding-bottom: 1em !important;
-    margin: 0 !important;
-    color: var(--verde-oscuro);
-    font-weight: bold;
-    cursor: default;
-    
+  font-size: 2em;
+  text-align: center;
+  padding-bottom: 1em !important;
+  margin: 0 !important;
+  color: var(--verde-oscuro);
+  font-weight: bold;
+  cursor: default;
 }
 
 .menu-ul .menu-item {
-    padding: 1.18em 0.75em;
-    align-items: center;
-    font-size: 1.35em;
+  padding: 1.18em 0.75em;
+  align-items: center;
+  font-size: 1.35em;
 }
-
-
 
 .menu-ul a {
+<<<<<<< Updated upstream
     text-decoration: none;
     color: var(--verde-oscuro);
+=======
+  text-decoration: none;
+  color: var(--verde-oscuro);
+>>>>>>> Stashed changes
 }
 
-.menu-item:hover:not(:first-child){
-    background-color: var(--verde-oscuro);
+.menu-item:hover:not(:first-child) {
+  background-color: var(--verde-oscuro);
 }
 
-.menu-item:hover a{
-    color: var(--verde-crema);
+.menu-item:hover a {
+  color: var(--verde-crema);
 }
-
 
 i {
-    margin: 0 .5em 0 .3em;
+  margin: 0 0.5em 0 0.3em;
 }
 
 #close {
+<<<<<<< Updated upstream
     position: relative;
     display: flex;
     justify-content: flex-end;
     font-size: 1.5em !important;
     margin: 0.35em 0.35em 0 0!important;
     color: var(--verde-oscuro);
+=======
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.5em !important;
+  margin: 0.35em 0.35em 0 0 !important;
+  color: var(--verde-oscuro);
+>>>>>>> Stashed changes
 }
