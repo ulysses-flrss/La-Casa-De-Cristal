@@ -3,7 +3,6 @@ let close = document.getElementById("close");
 let menu = document.getElementById("menu");
 let imagen = document.getElementById(`cover`);
 let titulo =  document.getElementById(`titulo`);
-let subtitulo = document.getElementById(`subtitulo`);
 let body = document.getElementById("body");
 let up = document.getElementById("up");
 
@@ -12,19 +11,17 @@ const topPage = () => {
 }
 
 const openMenu = ()=> {
+    menu.style.visibility = "visible";
     menu.style.transform = "translate(0, 0)";
-    open.style.display = "none";
+    open.style.visibility = "hidden";
     body.className = "noScroll";
-    body.style.filter = "brightness(0.5)";
-    up.style.filter = "brightness(0.5)";
 }
 
 const closeMenu = ()=> {
+    menu.style.visibility = "hidden";
     menu.style.transform = "translate(-250px, 0)";
-    open.style.display = "flex";
+    open.style.visibility = "visible";
     body.className = null;
-    body.style.filter = "brightness(1)";
-    up.style.filter = "brightness(1)";
 }
 
 open.addEventListener("click", openMenu);
