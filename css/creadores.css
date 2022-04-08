@@ -1,10 +1,11 @@
 * {
-  margin: auto;
-  padding: auto;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   background-color: var(--verde-crema);
+  position: relative;
 }
 
 #titulo {
@@ -14,6 +15,7 @@ body {
   font-family: var(--titulo);
   font-size: 7em;
 }
+
 #menu-icon {
   position: absolute;
   color: #009d71 !important;

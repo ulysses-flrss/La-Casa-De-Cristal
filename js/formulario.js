@@ -12,7 +12,7 @@ const validarNombre = () => {
 }
 
 const validarApellido = () => {
-    (/^(\w{10-20})$/.test(apellidos) == false)
+    (apellidos.value = "")
         ? warning.innerHTML = "El campo no debe quedar vacío"
         : warning.innerHTML = "Lleno Correctamente!"
 }
