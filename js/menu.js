@@ -15,7 +15,7 @@ const topPage = () => {
     window.scroll(0,0)
 }
 
-log
+
 const openMenu = ()=> {
     menu.style.transform = "translate(0, 0)";
     open.style.display = "none";
