@@ -1,19 +1,140 @@
 .portada {
-    display: flex;
-    flex-direction: column;
-    position: fixed;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
 }
-
-
 
 #cover {
     transform: translateY(-250px);
     position: absolute;
     width: 100%;
-    filter: brightness(0.3);
+    filter: brightness(0.5);
 }
 
 #titulo {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  text-align: center;
+  color: #fff;
+  z-index: 1;
+  font-family: var(--titulo);
+  font-size: 9em;
+}
+
+#section-container {
+  width: 100%;
+  height: 100%;
+  background-color: var(--verde-crema);
+  transform: translateY(50em);
+}
+
+article#datos {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: 4em 0;
+  margin-bottom: 2em;
+}
+
+.icon {
+  color: #fff;
+  font-size: 2.5em !important;
+  position: relative;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.dato {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: var(--verde);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.texto {
+  padding: 0.5em 0;
+  width: 30%;
+  text-align: center;
+  font-family: var(--cuerpo);
+}
+
+
+
+#historia {
+  margin: 2em 0;
+  padding: 0 2em;
+  width: 100%;
+}
+
+.titulo-historia {
+  cursor: default;
+}
+
+.titulos {
+  font-size: 5em;
+  color: var(--verde-oscuro);
+  font-family: var(--titulo);
+}
+
+.cuerpo-historia {
+  font-family: var(--cuerpo);
+  font-size: 1.5em;
+  text-align: justify;
+}
+
+.contacto-icon {
+  width: 17.5em;
+  height: 17.5em;
+}
+
+.icon-contacto {
+  font-size: 7em !important;
+}
+
+#contacto-article {
+  display: flex;
+  padding: 2em;
+}
+
+.contactos-div {
+  margin: 0 auto;
+}
+
+.contacto-list {
+  list-style-type: none;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+@media screen and (max-width: 480px) {
+  /* Estilo para Telefono*/
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  /* Estilo para Tablet */
+  #cover {
+    transform: translateY(0) !important;
+    position: absolute;
+    width: 100%;
+    filter: brightness(0.3);
+  }
+
+  #titulo {
     display: flex;
     justify-content: center;
     width: 100vw;
@@ -21,143 +142,9 @@
     height: 100vh;
     position: relative;
     text-align: center;
-    color: #FFF;
+    color: #fff;
     z-index: 1;
     font-family: var(--titulo);
     font-size: 9em;
-}
-
-#section-container {
-    width: 100%;
-    height: 100%;
-    background-color: var(--verde-crema);
-    transform:translateY(50em) ;
-    
-}
-
-
-
-article#datos {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    padding: 4em 0;
-    margin-bottom: 2em;
-}
-
-.icon {
-    color: #FFF;
-    font-size: 2.5em!important;
-    position: relative;
-    margin: 0 !important;
-    padding: 0 !important;
-}
-
-.dato {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.circle {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background-color: var(--verde);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.texto {
-    padding: 0.5em 0;
-    width: 30%;
-    text-align: center;
-    font-family: var(--cuerpo);
-}
-
-.separador {
-    background-color: var(--verde-oscuro);
-    border: 2px solid var(--verde-oscuro);
-}
-
-#historia {
-    margin: 2em 0;
-    padding: 0 2em;
-    width: 100%;
-}
-
-
-
-.titulo-historia {
-    cursor: default;
-}
-
-.titulos {
-    font-size: 5em;
-    color: var(--verde-oscuro);
-    font-family: var(--titulo);
-}
-
-.cuerpo-historia {
-    font-family: var(--cuerpo);
-    font-size: 1.5em;
-    text-align: justify;
-}
-
-.contacto-icon {
-    width: 17.5em;
-    height: 17.5em;
-}
-
-.icon-contacto {
-    font-size: 7em !important;
-}
-
-#contacto-article {
-    display: flex;
-    padding: 2em;
-}
-
-.contactos-div {
-    margin: 0 auto;
-}
-
-.contacto-list {
-    list-style-type: none;
-    text-align: center;
-    font-size: 1.5em;
-}
-
-
-
-@media screen and (max-width: 480px) {
-    /* Estilo para Telefono*/
-}
-
-@media screen and (min-width: 481px) and (max-width: 768px) {
-    /* Estilo para Tablet */
-    #cover {
-        transform: translateY(0) !important;
-        position: absolute;
-        width: 100%;
-        filter: brightness(0.3);
-    }
-
-    #titulo {
-        display: flex;
-        justify-content: center;
-        width: 100vw;
-        align-items: center;
-        height: 100vh;
-        position: relative;
-        text-align: center;
-        color: #FFF;
-        z-index: 1;
-        font-family: var(--titulo);
-        font-size: 9em;
-    }
-    
+  }
 }
