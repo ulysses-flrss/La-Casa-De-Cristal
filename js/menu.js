@@ -7,14 +7,9 @@ let subtitulo = document.getElementById(`subtitulo`);
 let body = document.getElementById("body");
 let up = document.getElementById("up");
 
-
-
-
-
 const topPage = () => {
     window.scroll(0,0)
 }
-
 
 const openMenu = ()=> {
     menu.style.transform = "translate(0, 0)";
