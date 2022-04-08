@@ -31,6 +31,12 @@
   cursor: pointer;
 }
 
+.noScroll {
+    position: fixed;
+    overflow: hidden;    
+}
+
+
 nav.menu-container {
   position: fixed;
   /* background-color: var(--verde-crema); */
