@@ -1,48 +1,73 @@
-img{
-  height: 24rem;
-  width: 79rem;
-   margin: -7px auto;
-  display: block;
+#cover{
+  width: 100%;
+  height: auto;
+}
+
+.section-servicios .list-servicios ul{
+  list-style: circle black .5rem;
+  font-family: var(--cuerpo);
+  font-size: 1.5rem;
+}
+
+.section-servicios .list-servicios ul li{
+  margin: 1rem auto;
+}
+
+.section-servicios div{
+  margin: 1.5rem auto 1.5rem 3rem;
+}
+
+.imagenes{
+  display: flex;
+  margin: 1.5rem auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagenes img{
+  height: 20rem;
+  width: 20rem;
+  margin-right: 5rem;
   border: 2px solid black;
 }
 
+.imagenes img:last-of-type{
+  margin-right: 0;
+}
+
 h1{
-	text-align: center;
-    font-size: 2.5rem;
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 1rem auto;
+  font-family: var(--titulo);
 }
 
 h2{
-	font-size: 1rem;
-    color:red;
+  font-size: 1rem;
+  color:red;
 }
 
 .separador {
-    background-color: var(--verde-oscuro);
-    border: 2px solid var(--verde-oscuro);
-
+  background-color: var(--verde-oscuro);
+  border: 2px solid var(--verde-oscuro);
 }
-
-
 
 #comida{
-	 
-  	margin: 10px; 
-  	 
-  	float: left; 
-  	width: 250px; 
+  margin: 10px;
+  float: left;
+  width: 250px;
 }
-
 
 
 @media screen and (max-width: 480px) {
-    /* Estilo para Telefono*/
+  /* Estilo para Telefono*/
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
-    /* Estilo para Tablet */
-    #cover {
-        transform: translateY(0) !important;
-        position: absolute;
-        width: 100%;
-        filter: brightness(0.3);
-    }
+  /* Estilo para Tablet */
+  #cover {
+    transform: translateY(0) !important;
+    position: absolute;
+    width: 100%;
+    filter: brightness(0.3);
+  }
