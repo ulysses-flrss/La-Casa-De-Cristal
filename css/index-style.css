@@ -10,7 +10,7 @@
     transform: translateY(-250px);
     position: absolute;
     width: 100%;
-    filter: brightness(0.3);
+    filter: brightness(0.5);
 }
 
 #titulo {
@@ -78,10 +78,7 @@ article#datos {
     font-family: var(--cuerpo);
 }
 
-.separador {
-    background-color: var(--verde-oscuro);
-    border: 2px solid var(--verde-oscuro);
-}
+
 
 #historia {
     margin: 2em 0;

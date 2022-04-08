@@ -20,8 +20,8 @@ const openMenu = ()=> {
     menu.style.transform = "translate(0, 0)";
     open.style.display = "none";
     body.className = "noScroll";
-    body.style.filter = "brightness(0.3)";
-    up.style.filter = "brightness(0.3)";
+    body.style.filter = "brightness(0.5)";
+    up.style.filter = "brightness(0.5)";
 }
 
 const closeMenu = ()=> {

@@ -36,6 +36,21 @@
     overflow: hidden;    
 }
 
+.separador {
+  background-color: var(--verde-oscuro);
+  border: 2px solid var(--verde-oscuro);
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: var(--verde);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 
 nav.menu-container {
   position: fixed;
