@@ -131,66 +131,8 @@ ul {
 }
 
 /* Estilo para Tablet */
-@media screen and (min-width: 481px) and (max-width: 768px) {
-  .slider-content {
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    margin: auto;
-    display: flex;
-    width: 50.6rem;
-    height: 42.5rem;
-    overflow: hidden;
-  }
 
-  ul {
-    list-style-type: none;
-    display: flex;
-  }
-
-  .slider-img {
-    width: 50.6rem;
-    height: 43rem;
-    /*margin: 1.25rem;*/
-  }
-
-  .slider-opcs {
-    margin-left: 151.8rem;
-    animation: carrusel 25s infinite linear;
-  }
-
-  @keyframes carrusel {
-    0% {
-      margin-left: 151.8rem;
-    }
-    20% {
-      margin-left: 151.8rem;
-    }
-
-    25% {
-      margin-left: 50.6rem;
-    }
-    45% {
-      margin-left: 50.6rem;
-    }
-
-    50% {
-      margin-left: -50.6rem;
-    }
-    70% {
-      margin-left: -50.6rem;
-    }
-
-    75% {
-      margin-left: -151.8rem;
-    }
-    95% {
-      margin-left: -151.8rem;
-    }
-  }
-}
-
-@media screen and (min-width: 769px) and (max-width: 1999px) {
+@media screen and (min-width: 768px) and (max-width: 1999px) {
   .miscelaneos ul {
     display: grid;
     width: 40rem;
@@ -270,4 +212,166 @@ ul {
       margin-left: -151.8rem;
     }
   }
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  .miscelaneos ul {
+    display: grid;
+    width: 20rem;
+    height: 10rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 2fr 2fr;
+    gap: 2em;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+
+  footer {
+    margin: 47rem auto auto auto;
+    background: var(--verde-oscuro);
+  }
+
+  .miscelaneos ul li img {
+    width: 12rem;
+    height: 12rem;
+  }
+  .slider-content {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    display: flex;
+    width: 30.1rem;
+    height: 30rem;
+    overflow: hidden;
+  }
+
+  ul {
+    list-style-type: none;
+    display: flex;
+  }
+
+  .slider-img {
+    width: 30.1rem;
+    height: 30rem;
+    /*margin: 1.25rem;*/
+  }
+
+  .slider-opcs {
+    margin-left: 90.2rem;
+    animation: carrusel 25s infinite linear;
+  }
+
+  @keyframes carrusel {
+    0% {
+      margin-left: 90.2rem;
+    }
+    20% {
+      margin-left: 90.2rem;
+    }
+
+    25% {
+      margin-left: 30rem;
+    }
+    45% {
+      margin-left: 30rem;
+    }
+
+    50% {
+      margin-left: -30rem;
+    }
+    70% {
+      margin-left: -30rem;
+    }
+
+    75% {
+      margin-left: -90.2rem;
+    }
+    95% {
+      margin-left: -90.2rem;
+    }
+  }
+}
+
+/* Para Teléfonos */
+@media screen and (max-width: 480px) {
+  .miscelaneos ul {
+    display: grid;
+    width: 10rem;
+    height: 5rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 2fr 2fr;
+    row-gap: 2em;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+
+  footer {
+    margin: 45rem auto auto auto;
+    background: var(--verde-oscuro);
+  }
+
+  .miscelaneos ul li img {
+    width: 10rem;
+    height: 10rem;
+  }
+  .slider-content {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    display: flex;
+    width: 25.7rem;
+    height: 28rem;
+    overflow: hidden;
+  }
+
+  ul {
+    list-style-type: none;
+    display: flex;
+  }
+
+  .slider-img {
+    width: 25.7rem;
+    height: 28rem;
+    /*margin: 1.25rem;*/
+  }
+
+  .slider-opcs {
+    margin-left: 77.1rem;
+    animation: carrusel 25s infinite linear;
+  }
+
+  @keyframes carrusel {
+    0% {
+      margin-left: 77.1rem;
+    }
+    20% {
+      margin-left: 77.1rem;
+    }
+
+    25% {
+      margin-left: 25.7rem;
+    }
+    45% {
+      margin-left: 25.7rem;
+    }
+
+    50% {
+      margin-left: -25.7rem;
+    }
+    70% {
+      margin-left: -25.7rem;
+    }
+
+    75% {
+      margin-left: -77.1rem;
+    }
+    95% {
+      margin-left: -77.1rem;
+    }
+  }
+}
 }
