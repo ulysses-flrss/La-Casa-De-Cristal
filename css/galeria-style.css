@@ -129,3 +129,145 @@ ul {
     margin-left: -252rem;
   }
 }
+
+/* Estilo para Tablet */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .slider-content {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    display: flex;
+    width: 50.6rem;
+    height: 42.5rem;
+    overflow: hidden;
+  }
+
+  ul {
+    list-style-type: none;
+    display: flex;
+  }
+
+  .slider-img {
+    width: 50.6rem;
+    height: 43rem;
+    /*margin: 1.25rem;*/
+  }
+
+  .slider-opcs {
+    margin-left: 151.8rem;
+    animation: carrusel 25s infinite linear;
+  }
+
+  @keyframes carrusel {
+    0% {
+      margin-left: 151.8rem;
+    }
+    20% {
+      margin-left: 151.8rem;
+    }
+
+    25% {
+      margin-left: 50.6rem;
+    }
+    45% {
+      margin-left: 50.6rem;
+    }
+
+    50% {
+      margin-left: -50.6rem;
+    }
+    70% {
+      margin-left: -50.6rem;
+    }
+
+    75% {
+      margin-left: -151.8rem;
+    }
+    95% {
+      margin-left: -151.8rem;
+    }
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1999px) {
+  .miscelaneos ul {
+    display: grid;
+    width: 40rem;
+    height: 30rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr 2fr 2fr;
+    gap: 2em;
+    column-gap: 5em;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+
+  footer {
+    margin: 15rem auto auto auto;
+    background: var(--verde-oscuro);
+  }
+
+  .miscelaneos ul li img {
+    width: 12rem;
+    height: 12rem;
+  }
+
+  .slider-content {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    display: flex;
+    width: 50.6rem;
+    height: 42.5rem;
+    overflow: hidden;
+  }
+
+  ul {
+    list-style-type: none;
+    display: flex;
+  }
+
+  .slider-img {
+    width: 50.6rem;
+    height: 43rem;
+    /*margin: 1.25rem;*/
+  }
+
+  .slider-opcs {
+    margin-left: 151.8rem;
+    animation: carrusel 25s infinite linear;
+  }
+
+  @keyframes carrusel {
+    0% {
+      margin-left: 151.8rem;
+    }
+    20% {
+      margin-left: 151.8rem;
+    }
+
+    25% {
+      margin-left: 50.6rem;
+    }
+    45% {
+      margin-left: 50.6rem;
+    }
+
+    50% {
+      margin-left: -50.6rem;
+    }
+    70% {
+      margin-left: -50.6rem;
+    }
+
+    75% {
+      margin-left: -151.8rem;
+    }
+    95% {
+      margin-left: -151.8rem;
+    }
+  }
+}
