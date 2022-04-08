@@ -1,0 +1,48 @@
+img{
+  height: 24rem;
+  width: 79rem;
+   margin: -7px auto;
+  display: block;
+  border: 2px solid black;
+}
+
+h1{
+	text-align: center;
+    font-size: 2.5rem;
+}
+
+h2{
+	font-size: 1rem;
+    color:red;
+}
+
+.separador {
+    background-color: var(--verde-oscuro);
+    border: 2px solid var(--verde-oscuro);
+
+}
+
+
+
+#comida{
+	 
+  	margin: 10px; 
+  	 
+  	float: left; 
+  	width: 250px; 
+}
+
+
+
+@media screen and (max-width: 480px) {
+    /* Estilo para Telefono*/
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    /* Estilo para Tablet */
+    #cover {
+        transform: translateY(0) !important;
+        position: absolute;
+        width: 100%;
+        filter: brightness(0.3);
+    }
