@@ -42,6 +42,11 @@ section article{
     box-sizing: border-box;
 }
 
+img:hover{
+    transform:rotate(32deg); 
+ 
+}
+
 
 .separador {
   background-color: var(--verde-oscuro);
