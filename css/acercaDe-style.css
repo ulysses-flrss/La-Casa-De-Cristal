@@ -5,7 +5,41 @@
 }
 
 body {
-    background-color:   #98FB98; 
+    background-color:   #90EE90; 
+}
+
+
+section{
+    margin: 0 auto;
+    width: 90%; 
+}
+
+section article{
+    font-size: 0.9rem;
+    height: 340px;
+    width: 33.33%;
+    overflow: hidden;
+}
+
+section article img{
+    height: 180px;
+    max-width: 80%;
+    margin: 5px auto;
+    display: block;
+}
+
+section article{
+    float: left;
+    overflow: hidden;
+    margin: 0.5%;
+    width: 32.33%;
+}
+
+section article{
+    border: 2px dashed  #9370D8;
+    padding: 1%;
+    overflow: hidden;
+    box-sizing: border-box;
 }
 
 
