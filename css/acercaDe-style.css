@@ -8,3 +8,9 @@ body {
     background-color:   #98FB98; 
 }
 
+
+.separador {
+  background-color: var(--verde-oscuro);
+  border: 2px solid var(--verde-oscuro);
+}
+
